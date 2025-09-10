@@ -26,26 +26,10 @@ The project followed an iterative development process, detailed in the final Jup
 
 5.  **Hyperparameter Optimization:** A systematic **Grid Search** was conducted to automatically find the optimal `learning_rate` and regularization strength (`alpha`), which was instrumental in minimizing the final forecast error.
 
----
-
-## 3. Repository Structure
-.
-├── Electricity consumption Netherlands/
-│ └── Electricity/
-│ ├── cityname_electricity_2013.csv
-│ ├── ...
-│ └── (and other city data files)
-├── Netherland's Electricity Federated Ridge Regression.ipynb
-└── README.md
-code
-Code
--   **`Electricity consumption Netherlands/`**: Contains the raw, city-level electricity consumption data used for training and evaluation.
--   **`Netherland's Electricity Federated Ridge Regression.ipynb`**: The main Jupyter Notebook containing the entire end-to-end workflow, from data ingestion to the final 5-year forecast visualization.
--   **`README.md`**: This file.
 
 ---
 
-## 4. Setup & Installation
+## 3. Setup & Installation
 
 To run this project, you need a Python environment with the following libraries installed. It is highly recommended to use a virtual environment.
 
